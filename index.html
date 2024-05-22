@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="pricing">
+      <h1>Choose the best plan for you</h1>
+      <div class="toggle-currency">
+        <button id="usd-btn" class="active">USD</button>
+        <button id="eur-btn">EUR</button>
+      </div>
+      <article class="tier" data-cost="9.99" data-currency="USD">
+        <h2>Basic</h2>
+        <p>Get started with all the basics for a personal website or blog.</p>
+        <ul>
+          <li>Unlimited pages</li>
+          <li>Free domain for 1 year</li>
+          <li>$5 per additional domain</li>
+        </ul>
+        <div class="price">
+          <span class="cost">$9.99</span>
+          <span class="duration">/month</span>
+        </div>
+        <button class="cta-btn">Choose Plan</button>
+      </article>
+
+      <article class="tier" data-cost="19.99" data-currency="USD">
+        <h2>Pro</h2>
+        <p>Step up your game with a more advanced plan.</p>
+        <ul>
+          <li>Unlimited pages</li>
+          <li>Free domain for 1 year</li>
+          <li>$5 per additional domain</li>
+          <li>1 GB storage</li>
+        </ul>
+        <div class="price">
+          <span class="cost">$19.99</span>
+          <span class="duration">/month</span>
+        </div>
+        <button class="cta-btn">Choose Plan</button>
+      </article>
+
+      <article class="tier" data-cost="39.99" data-currency="USD">
+        <h2>Enterprise</h2>
+        <p>Optimize your online presence with our most comprehensive plan.</p>
+        <ul>
+          <li>Unlimited pages</li>
+          <li>Free domain for 1 year</li>
+          <li>$5 per additional domain</li>
+          <li>1 GB storage</li>
+          <li>Priority customer support</li>
+        </ul>
+        <div class="price">
+          <span class="cost">$39.99</span>
+          <span class="duration">/month</span>
+        </div>
+        <button class="cta-btn">Choose Plan</button>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Jasmine Shaik. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
